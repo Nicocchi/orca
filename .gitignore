@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# Misc
+bin/*
+
+.vscode/*
+.cache/*
+Session.vim
+*.db
