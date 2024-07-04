@@ -12,7 +12,7 @@ V_FLAG=''
 M_FLAG=''
 
 CXX="clang++"
-FLAGS="-Wall -Wextra -std=c++17 $(pkg-config --cflags glfw3 freetype2)"
+FLAGS="-Wall -Wextra -std=c++17 $(pkg-config --cflags glfw3 freetype2) -g -O0"
 INCLUDES="include -Ithird_party/imgui -Ithird_party/portable_file_dialogs -Ithird_party/fonts -Ithird_party/miniaudio -I/usr/include/freetype2"
 SRC_M="src/main.cpp"
 SRC="third_party/imgui/imgui.cpp third_party/imgui/imgui_draw.cpp third_party/imgui/imgui_tables.cpp third_party/imgui/imgui_widgets.cpp third_party/imgui/imgui_freetype.cpp"

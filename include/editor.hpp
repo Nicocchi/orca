@@ -26,6 +26,8 @@
 #endif
 #endif
 
+IMGUI_API bool  InputText(const char* label, std::string* str, ImGuiInputTextFlags flags = 0, ImGuiInputTextCallback callback = nullptr, void* user_data = nullptr);
+
 enum TableColumnID {
   TableColumnID_ID,
   TableColumnID_Action,
@@ -44,8 +46,8 @@ enum TableColumnID {
 
 struct Editor {
 	ImGuiIO io;
-  	ImGuiStyle style;
-  	ImFont *iconFont;
+  ImGuiStyle style;
+  ImFont *iconFont;
 
-  	const char *glsl_version = "#version 460";
+  const char *glsl_version = "#version 460";
 } editor;

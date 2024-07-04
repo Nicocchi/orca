@@ -20,7 +20,7 @@ LD	:= clang++
 TARGET	:= main
 
 # The Directories, Source, Includes, Objects, Binary and Resources
-MODULES	:= third_party
+MODULES	:= third_party third_party/imgui third_party/portable-file-dialogs third_party/fonts third_party/miniaudio /usr/include/freetype2
 BIN		:= bin
 SRC_DIR		:= $(addprefix src/,$(MODULES))
 INCLUDE_DIR		:= $(addprefix include/,$(MODULES))
