@@ -1,5 +1,6 @@
-# orca
-Music Player
+# Orca
+
+My own media player because I don't like everything else
 
 ![main player](./assets/screenshots/screenshot01.png)
 
@@ -15,6 +16,7 @@ Todo-List
 - Repeat
 - Favourites
 - Audio Spectrum
+- Song change notifications
 
 Building
 
