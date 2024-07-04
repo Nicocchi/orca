@@ -10,6 +10,7 @@ Features
  - Autoplay
  - Next/Prev songs
  - Volume control
+ - Seeking
 
 Todo-List
 - Multiple playlists
