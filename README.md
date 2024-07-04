@@ -1,6 +1,8 @@
 # orca
 Music Player
 
+![main player](./assets/screenshots/screenshot01.png)
+
 Features
  - Single playlist
  - Shuffle
