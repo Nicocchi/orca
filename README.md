@@ -1,6 +1,19 @@
 # orca
 Music Player
 
+Features
+ - Single playlist
+ - Shuffle
+ - Autoplay
+ - Next/Prev songs
+ - Volume control
+
+Todo-List
+- Multiple playlists
+- Repeat
+- Favourites
+- Audio Spectrum
+
 Building
 
 ```sh
